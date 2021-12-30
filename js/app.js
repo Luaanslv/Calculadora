@@ -8,8 +8,9 @@ function addhistor(res, resultado) {
     let histor = document.getElementById("resultado").innerHTML;
     if(histor){
         document.getElementById("res").innerHTML= `${numero} = ${histor}`;
+        
     }else{
-        document.getElementById('res').innerHTML = "Nada...";
+        document.getElementById('res').innerHTML = "Nada..."; 
     }
     
 }
